@@ -7,8 +7,8 @@ html {
     font-weight: bold;
     font-size: 2rem;
     line-height: 1.5;
-    font-family: 'Droid Serif', serif;
-    }
+    font-family: 'Droid Serif', serif
+  }
 
   h2 {
     color: #79746f;
@@ -52,28 +52,33 @@ html {
     font-family: 'Open Sans', sans-serif;
     }
 
-  a {color: #713837;
+  a {
+    color: #713837;
     }
 
-  a:hover {color: #f6211a;}
-
-
-
-
+  a:hover {
+    color: #f6211a;
   }
 
+  blockquote {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: italic;
+    font-size: 1.5rem;
+    }
 
+  .webs {
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: circle;
+  }
 
+  .img {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: italic;
+    padding: 1;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-}
+  .speaker{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    text-align: right;
+  }
