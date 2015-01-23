@@ -29,6 +29,7 @@ html {
   }
 
   em {
+    color: red;
     font-family: 'Open Sans', sans-serif;
     font-weight: italic;
   }
@@ -36,6 +37,7 @@ html {
   b {
     font-family: 'Open Sans', sans-serif;
     color: #79746f;
+    font-weight: normal
   }
 
   ul {
@@ -62,7 +64,7 @@ html {
 
   blockquote {
     font-family: 'Open Sans', sans-serif;
-    font-weight: italic;
+    font-style: italic;
     font-size: 1.5rem;
     }
 
@@ -71,14 +73,21 @@ html {
     list-style-type: circle;
   }
 
-  .img {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: italic;
-    padding: 1;
-    }
-
   .speaker{
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
     text-align: right;
+    color: #79756f;
+  }
+
+  .planets{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+  }
+
+  em.marks{
+    font-family: 'Droid Serif', serif;
+    font-weight: bold;
+    font size: 4rem;
+
   }
